@@ -50,7 +50,7 @@ const WeekContainer = () => {
                 <input type="submit" />
             </form>
             <h5 className="display-5 text-muted">{city}</h5>
-            <div className="row justify-content-center">
+            <div className="row">
                 {formatDayCards()}
             </div>
         </div >
